@@ -36,6 +36,7 @@ margin:auto;
 margin-top:20px;
  border-radius:100%;
  box-shadow:3px 3px 0px black;
+ cursor:no-drop;
 
 
 ">
@@ -91,6 +92,7 @@ div2.addEventListener("click", () => {
         body.style.background = 'green'
 
         div2.style = `
+        cursor:no-drop;
 
 width:50px;
 height:50px;
@@ -107,6 +109,7 @@ margin-top:20px;
 
 
         div2.style = `
+        cursor:no-drop;
 
 width:50px;
 height:50px;
